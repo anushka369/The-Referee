@@ -1,0 +1,151 @@
+2026-01-06 00:04:04,518 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Starting weighted scoring analysis for 2 options and 3 constraints
+2026-01-06 00:04:04,518 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Completed weighted scoring analysis. Top option: API A
+2026-01-06 00:04:04,518 - option_comparison_tool.constraint_categorization.ConstraintCategorizer - INFO - Categorizing 3 constraints by importance level
+2026-01-06 00:04:04,518 - option_comparison_tool.constraint_categorization.ConstraintCategorizer - INFO - required: 2 constraints, total weight: 0.70
+2026-01-06 00:04:04,518 - option_comparison_tool.constraint_categorization.ConstraintCategorizer - INFO - preferred: 1 constraints, total weight: 0.30
+2026-01-06 00:04:04,518 - option_comparison_tool.constraint_categorization.ConstraintCategorizer - INFO - Analyzing 3 constraints for conflicts
+2026-01-06 00:04:04,518 - option_comparison_tool.constraint_categorization.ConstraintCategorizer - INFO - Detected 2 conflicts
+2026-01-06 00:13:00,405 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Starting weighted scoring analysis for 3 options and 4 constraints
+2026-01-06 00:13:00,405 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Completed weighted scoring analysis. Top option: Premium API
+2026-01-06 00:13:00,405 - option_comparison_tool.tradeoff_analyzer.TradeoffAnalyzer - INFO - Starting trade-off analysis for 3 options and 4 constraints
+2026-01-06 00:13:00,405 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Starting weighted scoring analysis for 3 options and 4 constraints
+2026-01-06 00:13:00,405 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Completed weighted scoring analysis. Top option: Premium API
+2026-01-06 00:13:00,408 - option_comparison_tool.tradeoff_analyzer.TradeoffAnalyzer - INFO - Completed trade-off analysis. Found 3 global trade-offs
+2026-01-06 00:23:10,586 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Starting weighted scoring analysis for 3 options and 4 constraints
+2026-01-06 00:23:10,586 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Completed weighted scoring analysis. Top option: API Option A
+2026-01-06 00:23:10,587 - option_comparison_tool.tradeoff_analyzer.TradeoffAnalyzer - INFO - Starting trade-off analysis for 3 options and 4 constraints
+2026-01-06 00:23:10,587 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Starting weighted scoring analysis for 3 options and 4 constraints
+2026-01-06 00:23:10,587 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Completed weighted scoring analysis. Top option: API Option A
+2026-01-06 00:23:10,587 - option_comparison_tool.tradeoff_analyzer.TradeoffAnalyzer - INFO - Completed trade-off analysis. Found 3 global trade-offs
+2026-01-06 00:23:10,587 - option_comparison_tool.results_formatter.ResultsFormatter - INFO - Formatting results in table format
+2026-01-06 00:23:10,587 - option_comparison_tool.results_formatter.ResultsFormatter - INFO - Successfully formatted results in table format
+2026-01-06 00:23:10,587 - option_comparison_tool.results_formatter.ResultsFormatter - INFO - Formatting results in pros_cons format
+2026-01-06 00:23:10,587 - option_comparison_tool.results_formatter.ResultsFormatter - INFO - Successfully formatted results in pros_cons format
+2026-01-06 00:23:10,587 - option_comparison_tool.results_formatter.ResultsFormatter - INFO - Formatting results in summary_cards format
+2026-01-06 00:23:10,587 - option_comparison_tool.results_formatter.ResultsFormatter - INFO - Successfully formatted results in summary_cards format
+2026-01-06 00:23:10,587 - option_comparison_tool.executive_summary.ExecutiveSummaryGenerator - INFO - Generating executive summary for 3 options
+2026-01-06 00:23:10,587 - option_comparison_tool.executive_summary.ExecutiveSummaryGenerator - INFO - Generated executive summary recommending: API Option A
+2026-01-06 00:23:10,587 - option_comparison_tool.results_formatter.ResultsFormatter - INFO - Formatting results in detailed_report format
+2026-01-06 00:23:10,587 - option_comparison_tool.results_formatter.ResultsFormatter - INFO - Successfully formatted results in detailed_report format
+2026-01-06 00:36:49,429 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 00:36:49,430 - option_comparison_tool - INFO - Applied template 'api_comparison': 6 constraints, 3 options
+2026-01-06 00:36:49,430 - option_comparison_tool - INFO - Created custom constraint: Custom Metric (numeric)
+2026-01-06 00:56:47,111 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 00:56:47,111 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 00:56:47,111 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 00:56:53,602 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 00:56:53,602 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 00:56:53,603 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 00:56:53,603 - option_comparison_tool - INFO - Applied template 'api_comparison': 6 constraints, 3 options
+2026-01-06 00:56:53,603 - option_comparison_tool.comparison_manager - INFO - Creating comparison with 3 options and 6 constraints
+2026-01-06 00:56:53,604 - option_comparison_tool.comparison_manager - INFO - Created comparison session 25e4c888-e6d5-40d8-af82-c963e34cdfd3
+2026-01-06 00:57:00,175 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 00:57:00,176 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 00:57:00,176 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 00:57:06,832 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 00:57:06,832 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 00:57:06,832 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 00:57:14,397 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 00:57:14,397 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 00:57:14,397 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 00:57:21,321 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 00:57:21,321 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 00:57:21,321 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 00:59:28,412 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 00:59:28,412 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 00:59:28,412 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 00:59:28,414 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Starting weighted scoring analysis for 3 options and 6 constraints
+2026-01-06 00:59:28,414 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Performance'
+2026-01-06 00:59:28,414 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Reliability'
+2026-01-06 00:59:28,414 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Cost'
+2026-01-06 00:59:28,414 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Documentation Quality'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Rate Limiting'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Authentication'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Performance'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Reliability'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Cost'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Documentation Quality'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Rate Limiting'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Authentication'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Performance'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Reliability'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Cost'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Documentation Quality'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Rate Limiting'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Authentication'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Completed weighted scoring analysis. Top option: REST API
+2026-01-06 00:59:28,415 - option_comparison_tool.tradeoff_analyzer.TradeoffAnalyzer - INFO - Starting trade-off analysis for 3 options and 6 constraints
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Starting weighted scoring analysis for 3 options and 6 constraints
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Performance'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Reliability'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Cost'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Documentation Quality'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Rate Limiting'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'REST API' missing attribute 'Authentication'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Performance'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Reliability'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Cost'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Documentation Quality'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Rate Limiting'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'GraphQL API' missing attribute 'Authentication'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Performance'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Reliability'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Cost'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Documentation Quality'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Rate Limiting'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'gRPC API' missing attribute 'Authentication'
+2026-01-06 00:59:28,415 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Completed weighted scoring analysis. Top option: REST API
+2026-01-06 00:59:28,416 - option_comparison_tool.tradeoff_analyzer.TradeoffAnalyzer - INFO - Completed trade-off analysis. Found 0 global trade-offs
+2026-01-06 00:59:28,416 - option_comparison_tool.executive_summary.ExecutiveSummaryGenerator - INFO - Generating executive summary for 3 options
+2026-01-06 00:59:28,416 - option_comparison_tool.executive_summary.ExecutiveSummaryGenerator - INFO - Generated executive summary recommending: REST API
+2026-01-06 00:59:28,416 - option_comparison_tool.results_formatter.ResultsFormatter - INFO - Formatting results in table format
+2026-01-06 00:59:28,416 - option_comparison_tool.results_formatter.ResultsFormatter - INFO - Successfully formatted results in table format
+2026-01-06 01:03:49,862 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 01:03:49,863 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 01:03:49,863 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 01:03:49,864 - option_comparison_tool - INFO - Applied template 'database_selection': 6 constraints, 3 options
+2026-01-06 01:03:49,864 - option_comparison_tool.comparison_manager - INFO - Creating comparison with 3 options and 6 constraints
+2026-01-06 01:03:49,864 - option_comparison_tool.comparison_manager - INFO - Created comparison session f25aed1b-6226-4f92-82f4-ff6eddc1a8b5
+2026-01-06 01:03:57,119 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 01:03:57,119 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 01:03:57,119 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 01:30:24,057 - option_comparison_tool.integration - INFO - SystemIntegrator initialized
+2026-01-06 01:30:24,058 - option_comparison_tool.integration - INFO - Initializing system components...
+2026-01-06 01:30:24,058 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 01:30:24,058 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 01:30:24,058 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 01:30:24,058 - option_comparison_tool.integration - INFO - System initialization completed successfully
+2026-01-06 01:30:24,058 - option_comparison_tool.integration - INFO - Shutting down system integrator...
+2026-01-06 01:30:24,058 - option_comparison_tool.integration - INFO - System shutdown completed
+2026-01-06 01:43:29,192 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 01:44:55,108 - option_comparison_tool.integration - INFO - SystemIntegrator initialized
+2026-01-06 01:44:55,109 - option_comparison_tool.integration - INFO - Initializing system components...
+2026-01-06 01:44:55,109 - option_comparison_tool.comparison_manager - INFO - ComparisonManager initialized with data directory: data
+2026-01-06 01:44:55,109 - option_comparison_tool - INFO - Loaded 4 built-in templates
+2026-01-06 01:44:55,109 - option_comparison_tool.export_engine - INFO - ExportEngine initialized with export directory: data/exports
+2026-01-06 01:44:55,109 - option_comparison_tool.integration - INFO - System initialization completed successfully
+2026-01-06 01:44:55,109 - option_comparison_tool.comparison_manager - INFO - Creating comparison with 2 options and 2 constraints
+2026-01-06 01:44:55,110 - option_comparison_tool.comparison_manager - INFO - Created comparison session 89fbad46-dfb3-4fa8-8ddc-aa37ff67a810
+2026-01-06 01:44:55,110 - option_comparison_tool.constraint_categorization.ConstraintCategorizer - INFO - Categorizing 2 constraints by importance level
+2026-01-06 01:44:55,110 - option_comparison_tool.constraint_categorization.ConstraintCategorizer - INFO - required: 1 constraints, total weight: 0.60
+2026-01-06 01:44:55,110 - option_comparison_tool.constraint_categorization.ConstraintCategorizer - INFO - preferred: 1 constraints, total weight: 0.40
+2026-01-06 01:44:55,110 - option_comparison_tool.constraint_categorization.ConstraintCategorizer - INFO - Analyzing 2 constraints for conflicts
+2026-01-06 01:44:55,110 - option_comparison_tool.constraint_categorization.ConstraintCategorizer - INFO - Detected 1 conflicts
+2026-01-06 01:44:55,110 - option_comparison_tool.integration - INFO - Created integrated comparison session 89fbad46-dfb3-4fa8-8ddc-aa37ff67a810
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Starting weighted scoring analysis for 2 options and 2 constraints
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'First option' missing attribute 'cost'
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'First option' missing attribute 'performance'
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'Second option' missing attribute 'cost'
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'Second option' missing attribute 'performance'
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Completed weighted scoring analysis. Top option: First option
+2026-01-06 01:44:55,110 - option_comparison_tool.tradeoff_analyzer.TradeoffAnalyzer - INFO - Starting trade-off analysis for 2 options and 2 constraints
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Starting weighted scoring analysis for 2 options and 2 constraints
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'First option' missing attribute 'cost'
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'First option' missing attribute 'performance'
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'Second option' missing attribute 'cost'
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - WARNING - Option 'Second option' missing attribute 'performance'
+2026-01-06 01:44:55,110 - option_comparison_tool.weighted_scoring.WeightedScoringAnalyzer - INFO - Completed weighted scoring analysis. Top option: First option
+2026-01-06 01:44:55,110 - option_comparison_tool.tradeoff_analyzer.TradeoffAnalyzer - INFO - Completed trade-off analysis. Found 0 global trade-offs
+2026-01-06 01:44:55,110 - option_comparison_tool.executive_summary.ExecutiveSummaryGenerator - INFO - Generating executive summary for 2 options
+2026-01-06 01:44:55,111 - option_comparison_tool.executive_summary.ExecutiveSummaryGenerator - INFO - Generated executive summary recommending: First option
+2026-01-06 01:44:55,111 - option_comparison_tool.integration - INFO - Completed comprehensive analysis for session 89fbad46-dfb3-4fa8-8ddc-aa37ff67a810

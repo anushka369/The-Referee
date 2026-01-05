@@ -1,0 +1,4 @@
+# file: /Users/aniruddhabanerjee/ANUSHKA/VSCode/kiro-week-6/option_comparison_tool/tradeoff_analyzer.py
+# hypothesis_version: 6.148.7
+
+[-0.3, 0.0, 0.2, 0.3, 0.5, 0.7, 1.0, '.', '. ', 'analysis_type', 'constraint_count', 'constraints', 'correlation', 'correlation_strength', 'moderate', 'notes', 'option_count', 'pareto_efficiency', 'pareto_frontier_size', 'significance_score', 'strong', 'trade_off_intensity', 'tradeoff_analysis', 'weak']

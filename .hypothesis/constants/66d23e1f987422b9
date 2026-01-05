@@ -1,0 +1,4 @@
+# file: /Users/aniruddhabanerjee/ANUSHKA/VSCode/kiro-week-6/option_comparison_tool/integration.py
+# hypothesis_version: 6.148.7
+
+[0.0, 1.0, 30.0, -100, 100, 300, 'analysis_results', 'average_duration', 'cache_cleared', 'comparison_manager', 'component', 'constraint_conflicts', 'create_comparison', 'degraded', 'dynamic_analyzer', 'executive_summary', 'export_engine', 'export_results', 'format_results', 'health', 'healthy', 'initialization', 'initialized', 'memory_optimized', 'message', 'metadata', 'not_initialized', 'operation', 'performance_metrics', 'performance_summary', 'recent_errors', 'results_formatter', 'scoring', 'sensitivity', 'session_id', 'slowest_operation', 'system', 'template_engine', 'timestamp', 'total_operations', 'tradeoff_analyzer', 'tradeoffs', 'type', 'unhealthy', 'weighted_scoring']

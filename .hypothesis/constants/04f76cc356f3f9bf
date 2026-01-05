@@ -1,0 +1,4 @@
+# file: /Users/aniruddhabanerjee/ANUSHKA/VSCode/kiro-week-6/option_comparison_tool/models.py
+# hypothesis_version: 6.148.7
+
+[0.0, 1.0, 'boolean', 'categorical', 'higher-better', 'lower-better', 'min-max', 'nice-to-have', 'numeric', 'preferred', 'required', 'z-score']

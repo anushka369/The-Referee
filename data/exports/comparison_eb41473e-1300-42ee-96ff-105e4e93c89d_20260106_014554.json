@@ -1,0 +1,118 @@
+{
+  "session_info": {
+    "id": "eb41473e-1300-42ee-96ff-105e4e93c89d",
+    "created_at": "2026-01-06T01:45:54.922292",
+    "updated_at": "2026-01-06T01:45:54.923773",
+    "template": null
+  },
+  "options": [
+    {
+      "id": "37effc91-5f2e-432c-b73a-b375862619fb",
+      "name": "Option A",
+      "description": "First option for testing",
+      "attributes": {
+        "Cost": 100,
+        "Performance": 8.5,
+        "Complexity": "low",
+        "Scalable": true
+      },
+      "metadata": {}
+    },
+    {
+      "id": "6290305a-bbd9-4b41-bebf-5b92ef13114e",
+      "name": "Option B",
+      "description": "Second option for testing",
+      "attributes": {
+        "Cost": 200,
+        "Performance": 9.2,
+        "Complexity": "medium",
+        "Scalable": true
+      },
+      "metadata": {}
+    },
+    {
+      "id": "dc00bc34-6e81-4275-b306-e3ee36bc6233",
+      "name": "Option C",
+      "description": "Third option for testing",
+      "attributes": {
+        "Cost": 150,
+        "Performance": 7.8,
+        "Complexity": "high",
+        "Scalable": false
+      },
+      "metadata": {}
+    }
+  ],
+  "constraints": [
+    {
+      "id": "05ffacba-0b4c-4b46-a474-31b502965d24",
+      "name": "Cost",
+      "description": "Total cost of ownership",
+      "weight": 0.6,
+      "priority": "required",
+      "type": "numeric",
+      "scale": {
+        "type": "numeric",
+        "min": 0,
+        "max": 1000,
+        "unit": null,
+        "direction": "lower-better",
+        "normalization_method": "min-max"
+      }
+    },
+    {
+      "id": "c914103e-9e68-4914-b02c-6807316352ad",
+      "name": "Performance",
+      "description": "System performance rating",
+      "weight": 0.2,
+      "priority": "preferred",
+      "type": "numeric",
+      "scale": {
+        "type": "numeric",
+        "min": 0,
+        "max": 10,
+        "unit": null,
+        "direction": "higher-better",
+        "normalization_method": "min-max"
+      }
+    },
+    {
+      "id": "b7301dd7-3234-4734-8fa2-ea0c06223fbf",
+      "name": "Complexity",
+      "description": "Implementation complexity",
+      "weight": 0.2,
+      "priority": "nice-to-have",
+      "type": "categorical",
+      "scale": {
+        "type": "categorical",
+        "values": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "scores": [
+          1.0,
+          0.6,
+          0.2
+        ],
+        "ordered": true
+      }
+    },
+    {
+      "id": "0b12be63-d1e7-406e-9fa2-e7bc5a302432",
+      "name": "Scalable",
+      "description": "Can scale with growth",
+      "weight": 0.1,
+      "priority": "preferred",
+      "type": "boolean"
+    }
+  ],
+  "summary": {
+    "option_count": 3,
+    "constraint_count": 4,
+    "total_weight": 1.1
+  },
+  "analysis_results": {
+    "weighted_scoring": {
+      "option_scores": [
+        

@@ -1,0 +1,4 @@
+# file: /Users/aniruddhabanerjee/ANUSHKA/VSCode/kiro-week-6/option_comparison_tool/api_models.py
+# hypothesis_version: 6.148.7
+
+[0.0, 1.0, 'Additional metadata', 'Creation timestamp', 'Current timestamp', 'Error message', 'Error type', 'List of constraints', 'List of session IDs', 'Name of the option', 'Name of the scenario', 'Option attributes', 'Priority level', 'Response data', 'Service status', 'Service version', 'Success indicator', 'Success message', 'Suggested options', 'Template constraints', 'Template description', 'Template domain', 'Template identifier', 'Template name', 'Type of constraint', 'Unit of measurement', 'Weight range to test', 'boolean', 'categorical', 'higher-better', 'json', 'lower-better', 'markdown', 'min-max', 'nice-to-have', 'numeric', 'pdf', 'preferred', 'required', 'scores', 'values', 'weight_adjustments', 'weighted_scoring', 'z-score']

@@ -1,0 +1,76 @@
+{
+  "session_info": {
+    "id": "58e5de27-8aad-454a-a243-14dbb4ea15c2",
+    "created_at": "2026-01-06T01:19:26.241641",
+    "updated_at": "2026-01-06T01:19:26.245019",
+    "template": null
+  },
+  "options": [
+    {
+      "id": "a7cc182a-6b34-4855-9ebd-4bc6da0f0666",
+      "name": "Option A",
+      "description": "First test option",
+      "attributes": {
+        "Cost": 100,
+        "Performance": 8,
+        "Reliability": 0.95
+      },
+      "metadata": {}
+    },
+    {
+      "id": "d74af4b9-81ad-41c3-8fed-5fb6cba5fcd6",
+      "name": "Option B",
+      "description": "Second test option",
+      "attributes": {
+        "Cost": 150,
+        "Performance": 9,
+        "Reliability": 0.98
+      },
+      "metadata": {}
+    },
+    {
+      "id": "2afaf98d-5a66-4772-9924-8c8188d6e2c5",
+      "name": "Option C",
+      "description": "Third test option",
+      "attributes": {
+        "Cost": 120,
+        "Performance": 7,
+        "Reliability": 0.92
+      },
+      "metadata": {}
+    }
+  ],
+  "constraints": [
+    {
+      "id": "e18a9c04-8256-4f75-aa2b-9bfcb88f22ed",
+      "name": "Cost",
+      "description": "Total cost consideration",
+      "weight": 0.4,
+      "priority": "required",
+      "type": "numeric"
+    },
+    {
+      "id": "a3552189-68a1-4a40-aba1-13f8b14331d8",
+      "name": "Performance",
+      "description": "Performance rating",
+      "weight": 0.4,
+      "priority": "preferred",
+      "type": "numeric"
+    },
+    {
+      "id": "5250a067-34be-4f45-89df-12108aafb876",
+      "name": "Reliability",
+      "description": "System reliability",
+      "weight": 0.2,
+      "priority": "nice-to-have",
+      "type": "numeric"
+    }
+  ],
+  "summary": {
+    "option_count": 3,
+    "constraint_count": 3,
+    "total_weight": 1.0
+  },
+  "analysis_results": {
+    "method": "weighted_scoring",
+    "scoring_results": 

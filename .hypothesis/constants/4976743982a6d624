@@ -1,0 +1,4 @@
+# file: /Users/aniruddhabanerjee/ANUSHKA/VSCode/kiro-week-6/option_comparison_tool/config.py
+# hypothesis_version: 6.148.7
+
+[1.0, 100, 'DATA_DIR', 'INFO', 'LOG_LEVEL', 'data', 'weighted_scoring']

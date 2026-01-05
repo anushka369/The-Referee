@@ -1,0 +1,4 @@
+# file: /Users/aniruddhabanerjee/ANUSHKA/VSCode/kiro-week-6/option_comparison_tool/export_engine.py
+# hypothesis_version: 6.148.7
+
+['   Attributes:', '-', '=', 'CONSTRAINTS', 'Complete', 'OPTIONS', 'Partial', 'SUMMARY', '_', 'analysis_results', 'attribute_count', 'attributes', 'categorical', 'comparison_', 'comparison_rationale', 'completeness', 'constraint_analysis', 'constraint_count', 'constraints', 'content', 'created_at', 'description', 'direction', 'export_timestamp', 'exports', 'file_path', 'filename', 'format', 'id', 'importance', 'json', 'markdown', 'max', 'metadata', 'min', 'name', 'normalization_method', 'numeric', 'option_analysis', 'option_count', 'options', 'ordered', 'pdf', 'priority', 'r', 'reasoning', 'scale', 'scores', 'session_id', 'session_info', 'shareable_link', 'size_bytes', 'summary', 'template', 'title', 'total_weight', 'type', 'unit', 'updated_at', 'utf-8', 'values', 'w', 'weight', 'weight_impact']
