@@ -1,6 +1,6 @@
 # Option Comparison Tool
 
-A Python-based tool for comparing multiple alternatives with structured analysis, trade-off identification, and contextual recommendations.
+A Python-based tool to master Agent Steering by comparing multiple alternatives with structured analysis and explaining complex trade-offs, instead of giving a single answer. The goal is to help users choose, not just consume information.
 
 ## Installation
 
