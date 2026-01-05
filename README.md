@@ -90,18 +90,18 @@ option-compare analyze <session-id> --export json --export markdown
 
 ```
 option-comparison-tool/
-├── option_comparison_tool/     # Main package
-│   ├── __init__.py            # Package initialization
-│   ├── models.py              # Core data models
-│   └── config.py              # Configuration and logging
-├── tests/                     # Test suite
+├── option_comparison_tool/       # Main package
+│   ├── __init__.py               # Package initialization
+│   ├── models.py                 # Core data models
+│   └── config.py                 # Configuration and logging
+├── tests/                        # Test suite
 │   ├── __init__.py
-│   ├── test_models.py         # Unit tests for models
+│   ├── test_models.py            # Unit tests for models
 │   └── test_data_persistence.py  # Property-based tests
-├── requirements.txt           # Python dependencies
-├── pytest.ini               # Pytest configuration
-├── setup.py                 # Package setup
-└── README.md                # This file
+├── requirements.txt              # Python dependencies
+├── pytest.ini                    # Pytest configuration
+├── setup.py                      # Package setup
+└── README.md                     # This file
 ```
 
 ## Core Data Models
